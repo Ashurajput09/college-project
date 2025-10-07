@@ -24,7 +24,7 @@ const getmovies = async()=>{
       movie_List.innerHTML = "<h1>Movie not found!</h1>";
       return;
     }
-        console.log(data);
+        // console.log(data);
         data.results.forEach(item => {
   if (item.language === "english") {
           movie_List.innerHTML = `
